@@ -1,0 +1,14 @@
+# abaans-agent-skills
+
+> Open-source Codex instruction skills by Abaan. MIT licensed.
+
+## Documentation
+
+- [README](https://github.com/Abaans/abaans-agent-skills/blob/main/README.md): installation, requirements and scope.
+- [Verification](https://github.com/Abaans/abaans-agent-skills/blob/main/docs/VERIFICATION.md): observed checks and untested workflows.
+- [Logo concept generation](https://raw.githubusercontent.com/Abaans/abaans-agent-skills/main/skills/logo-concept-generation/SKILL.md): Create logo directions with explicit lettering structure, then generate or critique concepts at the stage you request.
+- [Brand font exploration](https://raw.githubusercontent.com/Abaans/abaans-agent-skills/main/skills/brand-font-exploration/SKILL.md): Research brand typography, check the relevant font license and compare a shortlist on the actual brand name.
+- [Live Word text update](https://raw.githubusercontent.com/Abaans/abaans-agent-skills/main/skills/live-word-text-update/SKILL.md): Edit text in a shared Microsoft Word document while preserving its file identity, revision history and embedded content.
+- [Freeze a Product Document](https://raw.githubusercontent.com/Abaans/abaans-agent-skills/main/skills/freeze-pd/SKILL.md): Export the latest saved Product Document from Word to a dated PDF, inspect it and attach it to Jira only when requested.
+
+These indexes describe the package; they do not grant account access, install tools or expand a user request.

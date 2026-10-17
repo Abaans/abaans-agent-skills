@@ -1,0 +1,4 @@
+interface:
+  display_name: "Live Word Text Update"
+  short_description: "Edit shared Word text while preserving its history"
+  default_prompt: "Use $live-word-text-update to apply this revised text to the existing shared Word document."

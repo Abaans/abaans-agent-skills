@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Font Exploration"
+  short_description: "Research fonts and verify real Figma specimens"
+  default_prompt: "Use $brand-font-exploration to compare fonts for my brand name and intended uses."

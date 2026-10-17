@@ -1,0 +1,4 @@
+interface:
+  display_name: "Logo Concept Generation"
+  short_description: "Develop and refine reference-led logo concepts"
+  default_prompt: "Use $logo-concept-generation to explore logo directions for my brand brief."

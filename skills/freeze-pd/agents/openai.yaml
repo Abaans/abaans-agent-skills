@@ -1,0 +1,4 @@
+interface:
+  display_name: "Freeze Product Document"
+  short_description: "Create and verify a dated Word-to-PDF snapshot"
+  default_prompt: "Use $freeze-pd to freeze this Product Document and attach the verified PDF to the specified Jira issue."

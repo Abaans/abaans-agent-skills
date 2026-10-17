@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "name": "abaans-agent-skills",
+  "version": "0.1.0",
+  "author": {
+    "name": "Mohamed Abaan Abdul Azeez",
+    "url": "https://github.com/Abaans"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Abaans/abaans-agent-skills",
+  "kind": "agent-instruction-skills",
+  "tested_agent": "Codex",
+  "skills": [
+    {
+      "name": "logo-concept-generation",
+      "display_name": "Logo concept generation",
+      "description": "Create logo directions with explicit lettering structure, then generate or critique concepts at the stage you request.",
+      "path": "skills/logo-concept-generation",
+      "entrypoint": "skills/logo-concept-generation/SKILL.md",
+      "readme": "skills/logo-concept-generation/README.md",
+      "image": "skills/logo-concept-generation/assets/logo-concept-generation.jpg",
+      "requirements": [
+        "Web and visual-reference access for research",
+        "Image generation and inspection for requested concepts"
+      ],
+      "example_prompt": "Use $logo-concept-generation to propose three monochrome wordmark directions for Northline, a fictional outdoor journal. Prompts only.",
+      "documentation_url": "https://github.com/Abaans/abaans-agent-skills/tree/main/skills/logo-concept-generation"
+    },
+    {
+      "name": "brand-font-exploration",
+      "display_name": "Brand font exploration",
+      "description": "Research brand typography, check the relevant font license and compare a shortlist on the actual brand name.",
+      "path": "skills/brand-font-exploration",
+      "entrypoint": "skills/brand-font-exploration/SKILL.md",
+      "readme": "skills/brand-font-exploration/README.md",
+      "image": "skills/brand-font-exploration/assets/brand-font-exploration.jpg",
+      "requirements": [
+        "Web access to foundry or distributor sources",
+        "Font Book on macOS and Figma Desktop for the optional installation route"
+      ],
+      "example_prompt": "Use $brand-font-exploration to research serif fonts for Northline. Commercial desktop use matters. Give me a shortlist without installing anything.",
+      "documentation_url": "https://github.com/Abaans/abaans-agent-skills/tree/main/skills/brand-font-exploration"
+    },
+    {
+      "name": "live-word-text-update",
+      "display_name": "Live Word text update",
+      "description": "Edit text in a shared Microsoft Word document while preserving its file identity, revision history and embedded content.",
+      "path": "skills/live-word-text-update",
+      "entrypoint": "skills/live-word-text-update/SKILL.md",
+      "readme": "skills/live-word-text-update/README.md",
+      "image": "skills/live-word-text-update/assets/live-word-text-update.jpg",
+      "requirements": [
+        "Access to the exact Word source and shared destination",
+        "Bounded editing tools and the ability to reopen the canonical cloud item"
+      ],
+      "example_prompt": "Use $live-word-text-update to apply this revised eligibility paragraph to the specified shared Word document. Preserve its title, revision history and adjacent diagram.",
+      "documentation_url": "https://github.com/Abaans/abaans-agent-skills/tree/main/skills/live-word-text-update"
+    },
+    {
+      "name": "freeze-pd",
+      "display_name": "Freeze a Product Document",
+      "description": "Export the latest saved Product Document from Word to a dated PDF, inspect it and attach it to Jira only when requested.",
+      "path": "skills/freeze-pd",
+      "entrypoint": "skills/freeze-pd/SKILL.md",
+      "readme": "skills/freeze-pd/README.md",
+      "image": "skills/freeze-pd/assets/freeze-pd.jpg",
+      "requirements": [
+        "Microsoft Word PDF export and source-document access",
+        "Authorized Jira upload and retrieval only for an attachment request"
+      ],
+      "example_prompt": "Use $freeze-pd to export the specified Product Document revision as a dated PDF. Keep it local.",
+      "documentation_url": "https://github.com/Abaans/abaans-agent-skills/tree/main/skills/freeze-pd"
+    }
+  ]
+}
